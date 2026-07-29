@@ -477,3 +477,4 @@ impl AegisFundContract {
 
 #[cfg(test)]
 mod test;
+
