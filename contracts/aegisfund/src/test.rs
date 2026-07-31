@@ -348,3 +348,4 @@ fn test_finalize_before_deadline_fails() {
     let result = client.try_finalize_or_refund(&campaign_id);
     assert!(result.is_err());
 }
+
