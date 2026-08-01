@@ -59,3 +59,4 @@ $JsonContent = '{"contract_address": "' + $ContractId + '"}'
 Set-Content -Path "frontend/src/contract_address.json" -Value $JsonContent -Force
 
 Write-Host "=== Deployment Done! ===" -ForegroundColor Green
+
