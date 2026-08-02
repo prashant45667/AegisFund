@@ -12,3 +12,4 @@ export const log_10 = () => console.log("Init 10");
 export const log_11 = () => console.log("Init 11");
 export const log_12 = () => console.log("Init 12");
 export const log_13 = () => console.log("Init 13");
+export const log_14 = () => console.log("Init 14");
