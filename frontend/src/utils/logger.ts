@@ -7,3 +7,4 @@ export const log_5 = () => console.log("Init 5");
 export const log_6 = () => console.log("Init 6");
 export const log_7 = () => console.log("Init 7");
 export const log_8 = () => console.log("Init 8");
+export const log_9 = () => console.log("Init 9");
