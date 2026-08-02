@@ -60,3 +60,4 @@ Set-Content -Path "frontend/src/contract_address.json" -Value $JsonContent -Forc
 
 Write-Host "=== Deployment Done! ===" -ForegroundColor Green
 
+
