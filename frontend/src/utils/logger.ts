@@ -22,3 +22,4 @@ export const log_20 = () => console.log("Init 20");
 export const log_21 = () => console.log("Init 21");
 export const log_22 = () => console.log("Init 22");
 export const log_23 = () => console.log("Init 23");
+export const log_24 = () => console.log("Init 24");
