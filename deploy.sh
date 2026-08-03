@@ -57,3 +57,4 @@ mkdir -p frontend/src
 echo "{\"contract_address\": \"$CONTRACT_ID\"}" > frontend/src/contract_address.json
 
 echo "=== Deployment Done! ==="
+
