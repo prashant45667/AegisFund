@@ -25,3 +25,4 @@ export const log_23 = () => console.log("Init 23");
 export const log_24 = () => console.log("Init 24");
 export const log_25 = () => console.log("Init 25");
 export const log_26 = () => console.log("Init 26");
+export const log_27 = () => console.log("Init 27");
