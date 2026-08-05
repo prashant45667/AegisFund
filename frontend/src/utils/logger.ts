@@ -39,3 +39,4 @@ export const log_37 = () => console.log("Init 37");
 export const log_38 = () => console.log("Init 38");
 export const log_39 = () => console.log("Init 39");
 export const log_40 = () => console.log("Init 40");
+export const log_41 = () => console.log("Init 41");
