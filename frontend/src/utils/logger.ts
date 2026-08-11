@@ -98,3 +98,4 @@ export const log_96 = () => console.log("Init 96");
 export const log_97 = () => console.log("Init 97");
 export const log_98 = () => console.log("Init 98");
 export const log_99 = () => console.log("Init 99");
+export const log_100 = () => console.log("Init 100");
