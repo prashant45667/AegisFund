@@ -58,3 +58,4 @@ echo "{\"contract_address\": \"$CONTRACT_ID\"}" > frontend/src/contract_address.
 
 echo "=== Deployment Done! ==="
 
+
