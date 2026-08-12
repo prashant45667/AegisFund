@@ -102,3 +102,4 @@ export const log_100 = () => console.log("Init 100");
 export const log_101 = () => console.log("Init 101");
 export const log_102 = () => console.log("Init 102");
 export const log_103 = () => console.log("Init 103");
+export const log_104 = () => console.log("Init 104");
