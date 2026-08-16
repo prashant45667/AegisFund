@@ -219,3 +219,5 @@ export default App;
 
 
 
+
+// performance optimization for route rendering
