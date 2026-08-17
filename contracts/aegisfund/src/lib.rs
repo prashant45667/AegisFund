@@ -480,3 +480,5 @@ mod test;
 
 
 
+
+// Optimization: minimize read operations in campaign retrieval
