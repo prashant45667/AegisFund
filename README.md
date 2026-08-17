@@ -297,3 +297,7 @@ To collect and track responses during the user feedback phase, we set up a publi
 - **Repository**: [AegisFund Repository](https://github.com/prashant45667/AegisFund)
 - **Email**: Prashantgond724@gmail.com
 
+
+
+### Troubleshooting
+If you face issues building the contract, ensure your rust toolchain is up to date.
