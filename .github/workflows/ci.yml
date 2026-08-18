@@ -71,3 +71,5 @@ jobs:
 
       - name: Run Deploy Script
         run: ./deploy.sh
+
+# Optimized rust cache configuration
