@@ -353,3 +353,5 @@ fn test_finalize_before_deadline_fails() {
 
 
 
+
+// Test coverage: funding after deadline should fail
