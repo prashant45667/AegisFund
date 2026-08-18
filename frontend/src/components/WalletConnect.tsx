@@ -107,3 +107,5 @@ export const WalletConnect: React.FC<WalletConnectProps> = ({ address, setAddres
 
 
 
+
+// Handles cases where Freighter wallet disconnects unexpectedly
