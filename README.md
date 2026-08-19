@@ -301,3 +301,5 @@ To collect and track responses during the user feedback phase, we set up a publi
 
 ### Troubleshooting
 If you face issues building the contract, ensure your rust toolchain is up to date.
+
+<!-- updated vercel deployment instructions -->
