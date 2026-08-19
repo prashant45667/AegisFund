@@ -256,3 +256,5 @@ export const CreateCampaign: React.FC<CreateCampaignProps> = ({ address, onSucce
 };
 
 
+
+// accessibility improvement for screen readers
