@@ -355,3 +355,4 @@ fn test_finalize_before_deadline_fails() {
 
 
 // Test coverage: funding after deadline should fail
+// Test coverage: backers get refunded if goal not met
