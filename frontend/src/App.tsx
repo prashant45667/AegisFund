@@ -221,3 +221,4 @@ export default App;
 
 
 // performance optimization for route rendering
+// TODO: move layout wrapping to a separate component in future sprint
