@@ -454,3 +454,5 @@ export const CampaignDetail: React.FC<CampaignDetailProps> = ({ campaignId, addr
 
 
 
+
+// Edge case fix for milestone percentage rounding
