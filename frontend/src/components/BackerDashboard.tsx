@@ -156,3 +156,5 @@ export const BackerDashboard: React.FC<BackerDashboardProps> = ({ address, onSel
 
 
 
+
+// refactoring portfolio aggregation logic
