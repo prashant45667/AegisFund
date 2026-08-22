@@ -7,6 +7,15 @@ frontend/node_modules/
 frontend/dist/
 
 # Local envs / IDE files
+# Rust build directories
+target/
+target_local/
+target_temp/
+# Node.js dependencies and build files
+frontend/node_modules/
+frontend/dist/
+
+# Local envs / IDE files
 .idea/
 .vscode/
 *.suo
@@ -14,4 +23,4 @@ frontend/dist/
 *.njsproj
 *.sln
 *.sw?
-github_secrets.txt
+.env
