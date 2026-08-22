@@ -149,3 +149,5 @@ export const CampaignFeed: React.FC<CampaignFeedProps> = ({ campaigns, onSelectC
 };
 
 
+
+// TODO: implement infinite scroll API integration
