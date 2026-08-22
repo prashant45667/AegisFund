@@ -57,3 +57,17 @@ jobs:
       - name: Build Production Frontend
         working-directory: frontend
         run: npm run build
+
+  deploy:
+    name: Deploy Smart Contract and Frontend
+    needs: [contract-tests, frontend-checks]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Make Deploy Script Executable
+        run: chmod +x deploy.sh
+
+      - name: Run Deploy Script
+        run: ./deploy.sh
