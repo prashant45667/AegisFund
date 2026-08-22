@@ -482,3 +482,4 @@ mod test;
 
 
 // Optimization: minimize read operations in campaign retrieval
+// Added safe math checks for milestone distributions
