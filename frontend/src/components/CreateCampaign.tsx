@@ -258,3 +258,4 @@ export const CreateCampaign: React.FC<CreateCampaignProps> = ({ address, onSucce
 
 
 // accessibility improvement for screen readers
+// ensure target amount is > 0 and valid number
