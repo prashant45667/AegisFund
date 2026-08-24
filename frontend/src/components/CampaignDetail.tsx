@@ -456,3 +456,4 @@ export const CampaignDetail: React.FC<CampaignDetailProps> = ({ campaignId, addr
 
 
 // Edge case fix for milestone percentage rounding
+// Optimization: Add lazy loading strategy for high-res campaign assets
