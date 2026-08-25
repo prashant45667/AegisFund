@@ -24,7 +24,7 @@ jobs:
         uses: Swatinem/rust-cache@v2
         with:
           workspaces: |
-            contracts/verifund
+            contracts/aegisfund
 
       - name: Run Cargo Test
         run: cargo test --verbose
