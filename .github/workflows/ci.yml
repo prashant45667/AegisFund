@@ -20,14 +20,11 @@ jobs:
           toolchain: stable
           targets: wasm32-unknown-unknown
 
-      - name: Install wasm32 target manually
-        run: rustup target add wasm32-unknown-unknown
-
       - name: Rust Cache
         uses: Swatinem/rust-cache@v2
         with:
           workspaces: |
-            contracts/aegisfund
+            contracts/verifund
 
       - name: Run Cargo Test
         run: cargo test --verbose
@@ -74,5 +71,3 @@ jobs:
 
       - name: Run Deploy Script
         run: ./deploy.sh
-
-# Optimized rust cache configuration
