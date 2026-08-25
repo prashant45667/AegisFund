@@ -20,17 +20,22 @@ jobs:
           toolchain: stable
           targets: wasm32-unknown-unknown
 
+      - name: Install wasm32 target explicitly
+        run: rustup target add wasm32-unknown-unknown
+
       - name: Rust Cache
         uses: Swatinem/rust-cache@v2
         with:
           workspaces: |
-            contracts/verifund
+            contracts/aegisfund
 
       - name: Run Cargo Test
         run: cargo test --verbose
+        working-directory: contracts/aegisfund
 
       - name: Build Soroban Contract WASM
         run: cargo build --target wasm32-unknown-unknown --release
+        working-directory: contracts/aegisfund
 
   frontend-checks:
     name: React Frontend Build & Lint
@@ -52,7 +57,7 @@ jobs:
 
       - name: Run Linter
         working-directory: frontend
-        run: npm run lint || true # Allow warning-only lint pass
+        run: npm run lint || true
 
       - name: Build Production Frontend
         working-directory: frontend
