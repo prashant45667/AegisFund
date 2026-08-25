@@ -14,11 +14,16 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
 
-      - name: Install Rust and wasm32 target
+      - name: Setup Rust Toolchain
+        uses: dtolnay/rust-toolchain@1.79.0
+        with:
+          targets: wasm32-unknown-unknown
+
+      - name: Verify Toolchain
         run: |
-          rustup update stable
-          rustup default stable
-          rustup target add wasm32-unknown-unknown
+          rustup show
+          rustc --version
+          cargo --version
 
       - name: Run Cargo Test
         working-directory: contracts/aegisfund
